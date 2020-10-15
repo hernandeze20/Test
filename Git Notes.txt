@@ -1,0 +1,33 @@
+TRABANDO EN REPOSITORIO LOCAL
+git init: inicia un control de versiones en el folder 
+	: Se genera una sola ves por proyecto que tengas.
+
+git status: Verificar estado de archivos
+
+git add or git add . : Permite ingresar un archivo en la zona de stage o todos los archivos juntos.
+
+git commit -m "[message]": Empaquetar archivos para subir archivos a GitHub en stage, genera una nueva version
+
+git diff: Revisar cambios en archivos
+
+git reset HEAD [file name]: Quita archivo de zona stage
+
+git checkout . : es un control zeta
+
+git log: generar historial de todos los cambios en el proyecto
+
+Volver a una version especifica del commit
+git log and get id
+
+git checkout [id of commit]
+
+CREAR UN REPOSITORIO EN GIT HUB
+
+ir a la pagina y crear repositorio
+
+CONECTAR Y SINCRONIZAR REPOSITORIO LOCAL CON GIT HUB
+
+git remote add origin [git hub URL]
+
+git push -u origin master
+
